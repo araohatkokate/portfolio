@@ -47,11 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hi! I'm Araohat Kokate, a dedicated software engineer with a passion
+      for full-stack development, mobile development and artificial intelligence. My
+      journey in technology is driven by a commitment to crafting innovative solutions
+      that address real-world challenges. From developing responsive user interfaces
+      to implementing efficient backend systems, I enjoy every step of the development
+      lifecycle. Outside of coding, I actively participate in hackathons, contribute to
+      student organizations, and enjoy exploring creative outlets like art and music.
+      My mission is to build intuitive and transformative applications while continuously
+      growing as a developer.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

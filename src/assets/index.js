@@ -30,6 +30,16 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import SnapFix from "./SnapFix.png";
+import BugHouse from "./BugHouse.png"
+import Headstarter from "./Headstarter.png"
+import SCAI from "./SCAI.png"
+import UTA from "./UTA.png"
+import TechLink from "./TechLink.png"
+import NetSage from "./NetSage.png"
+import PhonebookManager from "./PhonebookManager.png"
+import PP from "./PROFESSIONAL_PICTURE.png"
+
 export {
   logo,
   backend,
@@ -59,4 +69,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  SnapFix,
+  BugHouse,
+  Headstarter,
+  SCAI,
+  UTA,
+  TechLink,
+  NetSage,
+  PhonebookManager,
+  PP,
 };

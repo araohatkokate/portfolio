@@ -15,14 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
   tripguide,
   threejs,
+  SnapFix,
+  NetSage,
+  PhonebookManager,
+  BugHouse,
+  Headstarter,
+  SCAI,
+  UTA,
+  TechLink,
 } from "../assets";
 
 export const navLinks = [
