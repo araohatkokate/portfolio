@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI/ML Engineer",
     icon: creator,
   },
 ];
@@ -116,55 +116,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer Fellow",
+    companyName: "Headstarter AI",
+    icon: Headstarter,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2024 - September 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the development of commercially viable AI-based full-stack applications, integrating advanced AI models to enhance system performance by 20% and implementing microservices architecture on AWS, reducing server response time by 30%.",
+      "Engaged in weekly hackathons and collaborative coding sessions, improving problem-solving skills and fostering a team-oriented approach. Actively participated in resume reviews and interview preparation sessions, significantly boosting job-readiness.",
+      "Led a capstone project focused on achieving 1,000 user sign-ups or generating $1,000 in revenue, utilizing data-driven strategies and iterative design processes to meet and exceed objectives, demonstrating expertise in building scalable, robust, and market-ready solutions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Developer and Co-event coordinator",
+    companyName: "Students in Computing and Artificial Intelligence",
+    icon: SCAI,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Design and develop the frontend for the SCAI organization website, implementing responsive design practices to optimize user experience across various devices and screen sizes.",
+      "Collaborate with backend developers to integrate frontend components with server-side functionalities, achieving a seamless and cohesive user experience.",
+      "Organize and coordinate events to promote AI and computing knowledge, including planning events, signing up the organization for university events, and engaging with members to ensure successful and impactful events.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Undergraduate Research Assistant",
+    companyName: "University of Texas at Arlington",
+    icon: UTA,
+    iconBg: "#383E56",
+    date: "June 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducting research on jailbreaking large language models to assess vulnerabilities in AI-generated responses.",
+      "Developing and refining prompts to challenge LLMs, identifying security flaws and unintended behavior in AI responses.",
+      "Collaborating with a research team to document findings and propose strategies for mitigating AI vulnerabilities.",
+    ],
+  },
+  {
+    title: "Computer Science Tutor",
+    companyName: "University of Texas at Arlington",
+    icon: UTA,
+    iconBg: "#383E56",
+    date: "August 2024 - Present",
+    points: [
+      "Providing one-on-one tutoring for UTA CSE undergraduate courses, assisting students in mastering subject material, debugging programs, and solving complex programming problems.",
+      "Manage daily operations of the CSE Student Success Center, including preparing lab computers, organizing work areas, and ensuring smooth appointment check-ins.",
+      "Collaborate with Student Success Center representatives in weekly meetings to discuss strategies for improving student outcomes and enhancing tutoring services.",
     ],
   },
 ];
@@ -198,67 +194,190 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SnapFix",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A cross-platform desktop application for capturing screenshots, taking notes, and generating flashcards using AI to help users with productivity.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Electron.js",
+        color: "white-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "Vue.js",
+        color: "white-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Python",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Open AI",
+        color: "white-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: SnapFix,
+    sourceCodeLink: "https://github.com/araohatkokate/StoryLine",
   },
   {
-    name: "Job IT",
+    name: "BugHouse App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A mobile application for computer science students at UTA to provide easy session scheduling, attendance tracking and automated reminders for accessibility.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Flutter",
+        color: "white-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "Firebase",
+        color: "white-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Node.js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "O Auth 2.0",
+        color: "white-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "white-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: BugHouse,
+    sourceCodeLink: "https://github.com/araohatkokate/Code2Video",
   },
   {
-    name: "Trip Guide",
+    name: "StoryLine",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A scalable mobile blog application featuring user authentication, blog creation, blog editing, offline support and proper state management to provide a seamless user experience.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Flutter",
+        color: "white-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "Dart",
+        color: "white-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Bloc",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Cubit",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Hive",
+        color: "white-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    sourceCodeLink: "https://github.com/araohatkokate/StoryLine",
+  },
+  {
+    name: "TechLink",
+    description:
+      "A networking platform for tech enthusiasts and professionals to collaborate with like minded individuals and stay connected by fostering a sense of community.",
+    tags: [
+      {
+        name: "Express.js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "white-text-gradient",
+      },
+      {
+        name: "React",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "white-text-gradient",
+      },
+      {
+        name: "multer",
+        color: "white-text-gradient",
+      },
+      {
+        name: "bcrypt",
+        color: "white-text-gradient",
+      },
+    ],
+    image: TechLink,
+    sourceCodeLink: "https://github.com/araohatkokate/MLH-Connect",
+  },
+  {
+    name: "PhoneBook Manager",
+    description:
+      "A secure and scalable PhoneBook API using FastAPI, featuring role-based access control, input validation and CRUD operations for efficient contact management.",
+    tags: [
+      {
+        name: "Python",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "white-text-gradient",
+      },
+      {
+        name: "FastAPI",
+        color: "white-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "white-text-gradient",
+      },
+      {
+        name: "O Auth 2.0",
+        color: "white-text-gradient",
+      },
+    ],
+    image: PhonebookManager,
+    sourceCodeLink: "https://github.com/araohatkokate/PhoneBook-Manager",
+  },
+  {
+    name: "NetSage",
+    description:
+      "A full stack application which utilizes RAG LLM to generate network based products to users based on a particular product catalog and user requirements.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "white-text-gradient",
+      },
+    ],
+    image: NetSage,
+    sourceCodeLink: "https://github.com/DevratPatel/HackUTDOmegaProject",
   },
 ];
 
